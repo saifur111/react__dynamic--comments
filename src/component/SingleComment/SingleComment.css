@@ -1,0 +1,23 @@
+.single__comment {
+  background-color: #ffbf00;
+  color: #540375;
+  max-width: 30rem;
+  padding: 2rem;
+  border: 2px solid #001253;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.single__comment > * {
+  margin-bottom: 0.5rem;
+}
+
+.single__comment h2 {
+  font-size: 2rem;
+}
+
+@media (max-width: 450px) {
+  .single__comment h2 {
+    font-size: 1.6rem;
+  }
+}
